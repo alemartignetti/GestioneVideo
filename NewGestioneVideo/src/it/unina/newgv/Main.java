@@ -33,6 +33,8 @@ public class Main {
 		GestoreVideo.caricaVideo("Eurolega", TipoSport.BASKET, "", "");
 		*/
 		
+		GestoreVideo.caricaVideo("Fognini", TipoSport.TENNIS, "", "");
+		
 		for (Video v : GestoreVideo.ricerca("Berrettini", null)) {
 			System.out.println(v.toString());
 		}
