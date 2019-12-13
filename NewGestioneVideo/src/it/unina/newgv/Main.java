@@ -59,7 +59,7 @@ public class Main {
 		
 		System.out.println("******* FINE *******");
 		
-		for (Video v : GestoreVideo.ricerca("", TipoSport.TENNIS)) {
+		for (Video v : GestoreVideo.ricerca("", TipoSport.PALLAVOLO)) {
 			System.out.println(v.toString());
 		}
 		
